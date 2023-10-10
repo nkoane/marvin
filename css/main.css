@@ -29,6 +29,16 @@ main div#logo h1 {
 main div#picture img {
     width: 100%;
     display: block;
+    /*filter: drop-shadow(5px 5px 0 red) hue-rotate(180deg) drop-shadow(5px 5px 0 red);*/
+    filter: blur(3px);
+    transition: all 0.5s ease-in-out;
+}
+
+main:hover div#picture img {
+    outline: 20px solid #ff0;
+    filter: saturate(1);
+    /* rotate 180def */
+    transform: rotate(180deg);
 }
 
 main div#story {

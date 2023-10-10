@@ -32,13 +32,14 @@ main div#picture img {
     /*filter: drop-shadow(5px 5px 0 red) hue-rotate(180deg) drop-shadow(5px 5px 0 red);*/
     filter: blur(3px);
     transition: all 0.5s ease-in-out;
+    transform: rotate(180deg);
 }
 
 main:hover div#picture img {
     outline: 20px solid #ff0;
     filter: saturate(1);
+    transform: rotate(0deg);
     /* rotate 180def */
-    transform: rotate(180deg);
 }
 
 main div#story {

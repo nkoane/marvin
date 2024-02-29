@@ -1,0 +1,153 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+main {
+  width: 804px;
+  margin: 0 auto;
+  grid-template-columns: 132px 350px auto;
+  display: grid;
+  gap: 34px;
+  margin-top: 180px;
+}
+
+.logo ul li {
+  list-style: none;
+}
+
+.logo ul li img {
+  width: 70px;
+}
+
+main div#logo h1 {
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin: 0;
+}
+
+main div#picture img {
+  place-items: center;
+  width: 350px;
+  display: block;
+  height: 500px;
+}
+
+main div#story {
+  display: flex;
+  flex-direction: column;
+}
+
+main div#story h2,
+main div#story p {
+  margin: 0;
+}
+
+main div#story article {
+  flex-grow: 1;
+  margin-top: 160px;
+}
+
+main div#story article h2 {
+  color: rgb(228, 228, 228);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: "Goudy Old Style";
+  margin-bottom: 1.5rem;
+  transition-delay: 2ms;
+}
+
+main div#story article h2 span img {
+  width: 20px;
+  opacity: 9%;
+}
+
+main div#story article h2 span img:hover {
+  opacity: 50%;
+}
+
+span#right img {
+  transform: rotate(180deg);
+}
+
+main div#story article p.quote {
+  margin-bottom: 1rem;
+}
+
+main div#story article p.author {
+  color: #999;
+}
+
+main div#story article p.year {
+  color: #999;
+  font-size: 0.8rem;
+}
+
+main div#story p.copy {
+  color: #e0e0e0;
+  font-size: 0.8rem;
+}
+
+/* horizontal*/
+
+div#img {
+  position: relative;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 37px;
+}
+
+img#image {
+  padding-bottom: 23px;
+  border-bottom: 1px dashed rgb(204, 204, 204);
+  height: 350px;
+  width: 500px;
+}
+
+div#twoclmn {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+div#two article {
+  width: 340px;
+}
+
+.quote {
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.author {
+  color: rgb(153, 153, 153);
+  margin-bottom: 0;
+}
+.year {
+  color: rgb(153, 153, 153);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.copy {
+  color: rgb(224, 224, 224);
+  font-size: 0.8rem;
+}
+
+h2 {
+  color: rgb(228, 228, 228);
+  font-size: 2rem;
+  font-weight: lighter;
+  font-family: "Goudy Old Style";
+  transition-delay: 2ms;
+  text-align: right;
+  margin-top: 15px;
+}
+
+div#two h2 span img {
+  width: 20px;
+  opacity: 9%;
+}

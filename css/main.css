@@ -37,7 +37,8 @@ a img {
 }
 
 main div#picture img {
-  width: 100%;
+  width: 350px;
+  height: 500px;
   display: block;
 }
 
